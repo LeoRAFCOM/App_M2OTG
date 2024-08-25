@@ -1,0 +1,397 @@
+{
+
+    "defaults": {
+        "colours": {
+            "normal_bg": "#191919",
+            "hovered_bg": "#fff3d1",
+            "disabled_bg": "#c21515",
+            "selected_bg": "#372C47",
+            "active_bg": "#6B4A6B",
+            "dark_bg": "#3a3b38",
+            
+            "normal_text": "#fff3d1",
+            "hovered_text": "#000000",
+            "selected_text": "#EBCA71",
+            "disabled_text": "#c21515",
+            "active_text": "#EBCA71",
+            
+            "link_text": "#7f11ad",
+            "link_hover": "#2020FF",
+            "link_selected": "#551A8B",
+            
+            "text_shadow": "#000000",
+            
+            "normal_border": "#fff3d1",
+            "hovered_border": "#fff3d1",
+            "disabled_border": "#c21515",
+            "selected_border": "#EBCA71",
+            "active_border": "#6B4A6B"
+        }
+    },
+
+    "@all_buttons": {
+        "font": {
+            "name": "BebasNeue",
+            "size": "35",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "misc": {
+            "text_vert_alignment": "top",
+            "state_transitions":
+            {
+                "normal_hovered": "0.3",
+                "hovered_normal": "0.3"
+            },
+            "border_width": "4",
+            "text_vert_alignment_padding": "125"
+        }
+    },
+
+    "#back_button": {
+        "font": {
+            "name": "BebasNeue",
+            "size": "29",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "misc": {
+            "text_vert_alignment": "center"
+        }
+    },
+
+    "#import_topo_data_button": {
+        "font": {
+            "name": "BebasNeue",
+            "size": "50",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "misc": {
+            "text_vert_alignment_padding": "70"
+        }
+    },
+
+    "#import_standard_button": {
+        "font": {
+            "name": "BebasNeue",
+            "size": "50",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "misc": {
+            "text_vert_alignment_padding": "70"
+        }
+    },
+
+    "#main_title": {
+        "font": {
+            "name": "lalezar",
+            "size": "50",
+            "regular_path": "ASSETS/Lalezar-Regular.ttf"  
+        },
+        "colours": {
+            "normal_text": "#fff3d1"
+        }
+    },
+
+    "text_box": {
+        "misc": {
+            "shape": "rectangle",
+            "shape_corner_radius": "0",
+            "border_width": "0",
+            "shadow_width": "2",
+            "padding": "10, 10"
+        },
+        "colours": {
+            "normal_text": "#fff3d1"
+        }
+    },
+
+    "#loading_label": {
+        "font": {
+            "name": "BebasNeue",
+            "size": "30",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        }
+    },
+
+    "@topo_overview_label": {
+        "font": {
+            "name": "BebasNeue",
+            "size": "30",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        }
+    },
+
+    "#topo_overview_panel": {
+        "misc": {
+            "border_width": "3"
+        }
+    },
+
+    "@all_entries":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "28",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "misc": {
+            "border_width": "3"
+        }
+    },
+
+    "#validate_epsg_button":{
+        "misc":{
+            "text_vert_alignment": "center"
+        }
+    },
+    "#validate_unique_id_button":{
+        "misc":{
+            "text_vert_alignment": "center"
+        }
+    },
+
+    "#@drop_down_menu_topo":{
+        "misc":{
+            "border_width": "1",
+            "tool_tip_delay": "0.1"
+        },
+        "colours":{
+            "normal_border": "#fff3d1"
+        }
+    },
+
+    "@error_labels":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "28",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "colours":{
+            "normal_text":"red"
+        }
+    },
+
+    "#cancel_button":{
+        "misc":{
+            "text_vert_alignment": "center"
+        },
+        "font": {
+            "name": "BebasNeue",
+            "size": "29",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        }
+    },
+
+    "#choice1_button": {
+        "misc":{
+            "text_vert_alignment":"center"
+        },
+        "font":{
+            "name": "BebasNeue",
+            "size": "25",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        }
+    },
+
+    "#choice2_button": {
+        "misc":{
+            "text_vert_alignment":"center"
+        },
+        "font":{
+            "name": "BebasNeue",
+            "size": "25",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        }
+    },
+
+    "#export_or_not_label":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "25",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        }  
+    },
+
+    "#diag_topo_button":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "50",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "misc":{
+            "text_vert_alignment_padding":"60"
+        }
+    },
+
+    "#label_percent":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "20",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "colours":{
+            "normal_text": "#fff3d1"
+        }
+    },
+
+    "#map_button":{
+        "images":{
+            "normal_image":{
+                "path":"ASSETS/map5.png"
+            }
+        },
+        "colours": {
+            "normal_bg": "#191919",
+            "hovered_bg": "#372C47",
+            "disabled_bg": "#c21515",
+            "selected_bg": "#372C47",
+            "active_bg": "#6B4A6B",
+            "dark_bg": "#3a3b38",
+            
+            "normal_text": "#fff3d1",
+            "hovered_text": "#000000",
+            "selected_text": "#EBCA71",
+            "disabled_text": "#c21515",
+            "active_text": "#EBCA71",
+            
+            "link_text": "#7f11ad",
+            "link_hover": "#2020FF",
+            "link_selected": "#551A8B",
+            
+            "text_shadow": "#000000",
+            
+            "normal_border": "#fff3d1",
+            "hovered_border": "#EBCA71",
+            "disabled_border": "#c21515",
+            "selected_border": "#EBCA71",
+            "active_border": "#6B4A6B"
+        }
+    },
+
+    "#label_std":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "35",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        }
+    },
+
+    "#label_col_std":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "20",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        } 
+    },
+
+    "#validate_standard":{
+        "misc":{
+            "text_vert_alignment":"center"
+        }
+    },
+    "#count_label":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "30",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        } 
+    },
+
+    "#evol_plus_percent":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "30",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "colours":{
+            "normal_text":"green"
+        }
+    },
+    
+    "#evol_moins_percent":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "30",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "colours":{
+            "normal_text":"red"
+        }
+    },
+
+    "#correction_label_plus":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "30",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "colours":{
+            "normal_text":"green"
+        }
+    },
+
+    "#correction_label_moins":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "30",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "colours":{
+            "normal_text":"red"
+        }
+    },
+
+    "#indic_topo_label20":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "40",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "colours":{
+            "normal_text": "#d7191c"
+        }
+    },
+
+    "#indic_topo_label40":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "40",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "colours":{
+            "normal_text": "#fdae61"
+        }
+    },
+
+    "#indic_topo_label60":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "40",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "colours":{
+            "normal_text": "#ffffbf"
+        }
+    },
+
+    "#indic_topo_label80":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "40",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "colours":{
+            "normal_text": "#a6d96a"
+        }
+    },
+
+    "#indic_topo_label100":{
+        "font":{
+            "name": "BebasNeue",
+            "size": "40",
+            "regular_path": "ASSETS/BebasNeue-Regular.ttf"
+        },
+        "colours":{
+            "normal_text": "#1a9641"
+        }
+    }
+}
+
